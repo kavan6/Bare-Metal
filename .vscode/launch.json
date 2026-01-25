@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "name": "ST-Link: Debug Application",
+      "cwd": "/home/frogman/repos/Bare-Metal/app",
+      "executable": "./firmware.elf",
+      "servertype": "stutil",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "STM32F407VET6",
+      "runToEntryPoint": "main",
+      "interface": "swd",
+      "preLaunchTask": "build_debug"
+    },
+    {
+      "name": "ST-Link: Debug Bootloader",
+      "cwd": "/home/frogman/repos/Bare-Metal/bootloader",
+      "executable": "./bootloader.elf",
+      "servertype": "stutil",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "STM32F407VET6",
+      "runToEntryPoint": "main",
+      "interface": "swd",
+      "preLaunchTask": "build_bootloader"
+    },
+    {
+      "name": "ST-Link: Attach to Application",
+      "cwd": "/home/frogman/repos/Bare-Metal/app",
+      "executable": "./firmware.elf",
+      "servertype": "stutil",
+      "request": "attach",
+      "type": "cortex-debug",
+      "device": "STM32F407VET6",
+      "runToEntryPoint": "main",
+      "interface": "swd"
+    },
+    {
+      "name": "ST-Link: Attach to Bootloader",
+      "cwd": "/home/frogman/repos/Bare-Metal/bootloader",
+      "executable": "./bootloader.elf",
+      "servertype": "stutil",
+      "request": "attach",
+      "type": "cortex-debug",
+      "device": "STM32F407VET6",
+      "runToEntryPoint": "main",
+      "interface": "swd"
+    }
+  ]
+}
