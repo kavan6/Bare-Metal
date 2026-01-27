@@ -1,7 +1,7 @@
 #include <libopencm3/stm32/timer.h>
 #include <libopencm3/stm32/rcc.h>
 
-#include "core/timer.h"
+#include "timer.h"
 
 #define PRESCALER   (84)
 #define ARR_VALUE   (1000)
