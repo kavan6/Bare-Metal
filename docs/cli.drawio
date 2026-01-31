@@ -1,0 +1,117 @@
+<mxfile host="65bd71144e">
+    <diagram id="JNv-QsEQqKaqf22bVdAq" name="Page-1">
+        <mxGraphModel dx="1386" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="487" y="250" width="142" height="168" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="12">
+                    <mxGeometry width="142" height="168" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="uint8_t : char : 1 byte" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;" vertex="1" parent="12">
+                    <mxGeometry x="7" y="11" width="127" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="uint8_t : char : 1 byte" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;" vertex="1" parent="12">
+                    <mxGeometry x="7" y="53" width="127" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;" vertex="1" parent="12">
+                    <mxGeometry x="41" y="131" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="764" y="363" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="uint8_t : char : 1 byte" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;" vertex="1" parent="1">
+                    <mxGeometry x="538" y="345" width="127" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;" edge="1" parent="1" source="26" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="-0.2664" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;entryX=0.228;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="486.8571428571429" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="30">
+                    <mxGeometry x="-0.2777" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="is enter?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="323" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="884" y="333" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Buffer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry width="120" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry x="7" y="8" width="11" height="13" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry x="22" y="8" width="11" height="13" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry x="37" y="8" width="11" height="13" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry x="52" y="8" width="11" height="13" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="27">
+                    <mxGeometry x="67" y="8" width="11" height="13" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.81;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;dashed=1;strokeColor=#660000;" edge="1" parent="1" source="18" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="701" y="458" width="303" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry width="303" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="13" y="11" width="278" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="13" y="47" width="278" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;fillColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="13" y="83" width="278" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=none;html=1;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="61" source="32" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="159" y="17" as="sourcePoint"/>
+                        <mxPoint x="209" y="-33" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="command 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="48" y="11" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;*fn 1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="188" y="11" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="command 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="48" y="47" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;*fn 2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="188" y="47" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="command 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="48" y="83" width="71" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;*fn 3&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Outfit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOutfit;fontSize=12;fontColor=default;container=0;" vertex="1" parent="61">
+                    <mxGeometry x="188" y="83" width="71" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
