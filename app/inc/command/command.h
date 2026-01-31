@@ -1,7 +1,7 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
-#include "command_handlers.h"
+#include "command/command_handlers.h"
 #include "common-defines.h"
 
 typedef void(*command_fn)(void);

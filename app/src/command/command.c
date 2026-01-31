@@ -1,4 +1,4 @@
-#include "command.h"
+#include "command/command.h"
 
 #define CHAR_RETURN             '\r'
 #define CHAR_NEWLINE            '\n'

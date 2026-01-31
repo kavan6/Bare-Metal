@@ -4,8 +4,8 @@
 
 #include "core/uart.h"
 #include "core/system.h"
+#include "command/command.h"
 #include "timer.h"
-#include "command.h"
 
 #define BOOTLOADER_SIZE     (0x8000U)
 
@@ -69,7 +69,8 @@ int main(void)
             uint8_t data = uart_read_byte();
             process_char((const char)data);
         }
-        
+
+        system_delay(1000);
     }
 
     // Never return
