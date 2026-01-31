@@ -70,7 +70,7 @@ int main(void)
             process_char((const char)data);
         }
 
-        system_delay(1000);
+        //system_delay(1000);
     }
 
     // Never return
