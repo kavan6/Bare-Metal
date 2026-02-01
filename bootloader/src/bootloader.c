@@ -5,6 +5,7 @@
 
 #include "core/uart.h"
 #include "core/system.h"
+#include "util/simple-timer.h"
 #include "comms.h"
 #include "bl-flash.h"
 
@@ -38,10 +39,10 @@ int main(void)
     // uart_setup();
     // comms_setup();
 
-    // while (true)
-    // {
+    while (true)
+    {
 
-    // }
+    }
 
     // teardown
 
