@@ -6,6 +6,7 @@
 #include "core/uart.h"
 #include "core/system.h"
 #include "comms.h"
+#include "bl-flash.h"
 
 #define BOOTLOADER_SIZE         (0x8000U)
 #define MAIN_APP_START_ADDRESS  (FLASH_BASE + BOOTLOADER_SIZE)
@@ -33,23 +34,14 @@ static void jump_to_main(void)
 int main(void)
 {
     system_setup();
-    gpio_setup();
-    uart_setup();
-    comms_setup();
+    // gpio_setup();
+    // uart_setup();
+    // comms_setup();
 
-    comms_packet_t packet = {
-        .length = 9,
-        .data = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff },
-        .crc = 0
-    };
-    packet.crc = comms_compute_crc(&packet);
+    // while (true)
+    // {
 
-    while (true)
-    {
-        comms_update();
-        comms_send(&packet);
-        system_delay(500);
-    }
+    // }
 
     // teardown
 
