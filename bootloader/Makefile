@@ -62,6 +62,7 @@ OBJS		+= $(SRC_DIR)/comms.o
 OBJS		+= $(SHARED_SRC_DIR)/core/crc8.o
 OBJS		+= $(SHARED_SRC_DIR)/core/uart.o
 OBJS		+= $(SHARED_SRC_DIR)/core/ring-buffer.o
+OBJS		+= $(SHARED_SRC_DIR)/core/system.o
 
 ###############################################################################
 # C flags
