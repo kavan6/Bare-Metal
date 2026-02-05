@@ -3,7 +3,7 @@
 #include "bl-flash.h"
 
 #define MAIN_APP_SECTOR_START   (2)
-#define MAIN_APP_SECTOR_END     (11)
+#define MAIN_APP_SECTOR_END     (7)
 
 void bl_flash_erase_main_application(void)
 {
